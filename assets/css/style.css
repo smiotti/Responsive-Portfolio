@@ -289,10 +289,24 @@ nav a:hover {
 		.wrapper{	
 			/* background-color: red; */
 			width: 90%;	
-			padding: 20px;
-	
+			padding: 0px;
+	/* padding was 20px */
 		}
 
+
+/* 		#logo {
+			float: left;
+			display: block;
+			background-color:#4aaaa5;
+			color: #ffffff;
+			font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+			font-size: 30px;
+			font-weight: bold;
+			text-decoration: none;
+			padding: 0 30px;
+			line-height: 70px;
+			
+		} */
 
 		nav {
 			float: left;
@@ -310,9 +324,9 @@ nav a:hover {
 		nav ul li a {
 			text-decoration: none;
 			color: #777777;
-			margin-left: 20px;
+			margin-left: 0;
 			line-height: 22px;
-			padding-left: 0px;
+			padding-left: 10px;
 			border-left: 1px solid #dddddd;
 		}
 		
