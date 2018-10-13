@@ -212,9 +212,7 @@ nav a:hover {
 }
 
 /* About Photo Hover effect*/
-.Responsive image { margin-left: 30px; }
-
-.Responsive image {
+.myphoto:hover {
   -ms-transform: rotate(-15deg);
   -webkit-transform: rotate(-15deg);
   -moz-transform: rotate(-15deg);
