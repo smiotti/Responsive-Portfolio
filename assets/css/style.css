@@ -243,6 +243,7 @@ nav a:hover {
 	}
 }
 
+
 /* Sized for screens up to 768 pxels. */
 @media screen and (max-width: 768px) {
 
@@ -257,12 +258,27 @@ nav a:hover {
 	}
 }
 
+
 /* Sized for screens up to 640 pxels. */
 @media screen and (max-width: 640px) {
 
 	.wrapper {	
 		width: 90%;	
 		padding: 0px;
+	}
+
+
+	#logo {
+		float: left;
+		display: block;
+		background-color:#4aaaa5;
+		color: #ffffff;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		font-size: 100%;
+		font-weight: bold;
+		text-decoration: none;
+		padding: 0 20px;
+		line-height: 70px;
 	}
 
 	
