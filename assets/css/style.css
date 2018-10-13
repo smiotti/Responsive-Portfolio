@@ -1,0 +1,414 @@
+body {
+  background-color: #F2E5D5;
+	color: #777777;
+  font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  margin: 0;
+  line-height: 1.5;
+	background-image: url("../images/Lure.jpg");
+	margin-bottom: 100px;
+}
+
+*	 {
+	box-sizing: border-box;
+}
+
+/* About Page */
+/* Top Level Styling */	
+
+h1, h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	padding-bottom: 30px;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+h1 {
+	font-size: 30px;
+	border-bottom: 2px solid #cccccc;
+}
+
+h2 {
+	font-size: 22px;
+	border-bottom: 1px solid #cccccc;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+header {
+	background-color: #ffffff;
+	margin-bottom: 40px;
+	border-bottom: 2px solid #cccccc;
+}
+
+#logo {
+	float: left;
+	display: block;
+	background-color:#4aaaa5;
+	color: #ffffff;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0 30px;
+	line-height: 70px;
+	
+}
+
+/* Navigation Bar */
+
+nav {
+	float: right;
+}
+
+nav ul {
+	display: block;
+}
+
+nav ul li {
+	display: inline-block;
+	line-height: 70px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #777777;
+	margin-left: 20px;
+	line-height: 22px;
+	padding-left: 20px;
+	border-left: 1px solid #dddddd;
+}
+
+nav ul li:first-child a {
+	border-left: 0;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	clear: both;
+	overflow: hidden;
+}
+
+/* Sticky Footer */
+.footer {
+	position: fixed; 
+	text-align: center;
+	font-size: 12px;
+	line-height: 50px;
+	background-color:#666666;
+	color: #cccccc;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	border-top: 6px solid #4aaaa5;
+} 
+
+/* Styling for the content box */
+.box {
+	background-color: #ffffff;
+	padding: 30px;
+	border: 1px solid #dddddd;
+}
+
+#content {
+	float: left;
+	width: 960px;
+}
+
+.myphoto {
+	float: left;
+	margin-right: 30px;
+}
+
+/* Styling for Portfolio Page*/
+
+.sports {
+  position: relative;
+  float: left;
+	width: 374px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+.sportswork:nth-child(even) {
+  margin-right: 40px;
+}
+
+.sports img {
+  width: 60%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.sports h3 {
+  position: absolute;
+  bottom: 0px;
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 10px;
+  color: #ffffff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+  font-size: 22px;
+}
+
+/* Styling for Contact Page */
+
+#contact-form ul {
+  margin-bottom: 20px;
+}
+
+#contact-form li {
+  margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #dddddd;
+}
+
+textarea {
+  height: 150px;
+}
+
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #ffffff;
+  cursor: pointer;
+	background: #4aaaa5;
+	border: 0 none;
+}
+
+/* Some Bonus Elements Added Here */
+
+/* Logo Hover effect */
+#logo:hover, input[type=submit]:hover {
+	background: #16AAA5;
+	border: 1px solid #dddddd;
+	color: #dddddd;
+}
+
+/* Nav Hover effect*/
+nav a:hover {
+  color: #404b4a;
+}
+
+/* About Photo Hover effect*/
+.Responsive image { margin-left: 30px; }
+
+.Responsive image {
+  -ms-transform: rotate(-15deg);
+  -webkit-transform: rotate(-15deg);
+  -moz-transform: rotate(-15deg);
+  -o-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+
+
+
+
+@media screen and (max-width: 980px) {
+
+	.wrapper{	
+		/* background-color: red; */
+		width: 90%;	
+		padding: 20px;
+
+	}
+
+	/* Styling for the content box */
+/* 	.box {
+		background-color: #ffffff;
+		padding: 30px;
+		border: 1px solid #dddddd;
+	} */
+
+	#content {
+		float: left;
+		width: 100%;
+	}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+/* 	header {
+		background-color: #308654;
+		margin-bottom: 40px;
+		border-bottom: 2px solid #cccccc;
+	
+	} */
+
+	.wrapper{	
+		/* background-color: red; */
+		width: 90%;	
+		padding: 20px;
+
+	}
+
+	/* Styling for the content box */
+/* 	.box {
+		background-color: #ffffff;
+		padding: 30px;
+		border: 1px solid #dddddd;
+	} */
+
+	#content {
+		float: left;
+		width: 100%;
+	}
+
+
+
+
+
+	@media screen and (max-width: 640px) {
+
+		.wrapper{	
+			/* background-color: red; */
+			width: 90%;	
+			padding: 20px;
+	
+		}
+
+
+		nav {
+			float: left;
+		}
+		
+		nav ul {
+			display: block;
+		}
+		
+		nav ul li {
+			display: inline-block;
+			line-height: 70px;
+		}
+		
+		nav ul li a {
+			text-decoration: none;
+			color: #777777;
+			margin-left: 20px;
+			line-height: 22px;
+			padding-left: 0px;
+			border-left: 1px solid #dddddd;
+		}
+		
+		nav ul li:first-child a {
+			border-left: 0;
+		}
+	
+		/* Styling for the content box */
+	/* 	.box {
+			background-color: #ffffff;
+			padding: 30px;
+			border: 1px solid #dddddd;
+		} */
+	
+		#content {
+			float: left;
+			width: 100%;
+		}
+	
+
+
+
+
+
+
+
+
+
+/* 
+
+	.left_content {
+
+    float: left;
+
+    width: 625px;
+
+    margin-left: 45px;
+
+  }
+
+  .right_content {
+
+    float: left;
+
+    width: 665px;
+
+    height: 200px;
+
+    margin-left: 45px;
+
+    padding: 0;
+
+    margin-bottom: -150px;
+
+  }
+
+  .right_content i {
+
+    margin-left: 110px;
+
+  }
+
+  .cover, .portfolio_images {
+
+    width: 275px;
+
+    height:225px;
+
+    margin-left: 10px;
+
+  }
+
+  .banner {
+
+    width: 275px;
+
+    margin-left: 10px;
+
+  }
+
+  .field {
+
+    max-width: 600px;
+
+  }
+
+  textarea {
+
+    min-width: 600px;
+
+    max-width: 600px;
+
+    max-height: 175px;
+
+    min-height: 125px;  
+
+  } */
+
+}
