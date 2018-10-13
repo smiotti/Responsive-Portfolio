@@ -238,7 +238,7 @@ nav a:hover {
 	}
 
 	#content {
-		float: left;
+		float: right;
 		width: 100%;
 	}
 }
@@ -252,7 +252,7 @@ nav a:hover {
 	}
 
 	#content {
-		float: left;
+		float: right;
 		width: 100%;
 	}
 }
@@ -267,7 +267,7 @@ nav a:hover {
 
 	
 	nav {
-		float: left;
+		float: right;
 	}
 		
 	nav ul {
@@ -294,7 +294,7 @@ nav a:hover {
 	
 	
 	#content {
-		float: left;
+		float: right;
 		width: 100%;
 	}
 }
