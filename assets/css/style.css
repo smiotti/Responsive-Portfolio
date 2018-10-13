@@ -197,6 +197,7 @@ input[type=submit] {
 	border: 0 none;
 }
 
+
 /* Some Bonus Elements Added Here */
 
 /* Logo Hover effect */
@@ -227,80 +228,73 @@ nav a:hover {
 
 /* Media queries added to correctly render page content at screen resolution breaks of 980px, 768px & 640px. */
 
+
+/* Sized for screens up to 980 pxels. */
 @media screen and (max-width: 980px) {
 
-	.wrapper{	
-		/* background-color: red; */
+	.wrapper {	
 		width: 90%;	
-		padding: 20px;
-
+		padding: 0px;
 	}
 
 	#content {
 		float: left;
 		width: 100%;
 	}
+}
 
-
-
-
+/* Sized for screens up to 768 pxels. */
 @media screen and (max-width: 768px) {
 
-	.wrapper{	
-		/* background-color: red; */
+	.wrapper {	
 		width: 90%;	
-		padding: 20px;
-
+		padding: 0px;
 	}
 
 	#content {
 		float: left;
 		width: 100%;
 	}
+}
 
+/* Sized for screens up to 640 pxels. */
+@media screen and (max-width: 640px) {
 
-
-
-	@media screen and (max-width: 640px) {
-
-		.wrapper{	
-			/* background-color: red; */
-			width: 90%;	
-			padding: 0px;
-	/* padding was 20px */
-		}
+	.wrapper {	
+		width: 90%;	
+		padding: 0px;
+	}
 
 	
-		nav {
-			float: left;
-		}
+	nav {
+		float: left;
+	}
 		
-		nav ul {
-			display: block;
-		}
+	nav ul {
+		display: block;
+	}
 		
-		nav ul li {
-			display: inline-block;
-			line-height: 70px;
-		}
+	nav ul li {
+		display: inline-block;
+		line-height: 70px;
+	}
 		
-		nav ul li a {
-			text-decoration: none;
-			color: #777777;
-			margin-left: 0;
-			line-height: 22px;
-			padding-left: 10px;
-			border-left: 1px solid #dddddd;
-		}
+	nav ul li a {
+		text-decoration: none;
+		color: #777777;
+		margin-left: 0;
+		line-height: 22px;
+		padding-left: 10px;
+		border-left: 1px solid #dddddd;
+	}
 		
-		nav ul li:first-child a {
-			border-left: 0;
-		}
+	nav ul li:first-child a {
+		border-left: 0;
+	}
 	
 	
-		#content {
-			float: left;
-			width: 100%;
-		}
-	
+	#content {
+		float: left;
+		width: 100%;
+	}
 }
