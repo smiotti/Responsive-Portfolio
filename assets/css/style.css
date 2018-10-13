@@ -267,7 +267,7 @@ nav a:hover {
 
 	
 	nav {
-		float: right;
+		float: auto;
 	}
 		
 	nav ul {
@@ -294,7 +294,7 @@ nav a:hover {
 	
 	
 	#content {
-		float: right;
+		float: left;
 		width: 100%;
 	}
 }
