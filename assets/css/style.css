@@ -206,13 +206,14 @@ input[type=submit] {
 	color: #dddddd;
 }
 
+
 /* Nav Hover effect*/
 nav a:hover {
   color: #404b4a;
 }
 
 
-/* Abuot Photo Hover Spin effect*/
+/* Ab0ut Photo Hover Spin effect*/
 .myphoto { transition: all 0.3s ease-in-out 0s; }
 
 .myphoto:hover
@@ -224,7 +225,7 @@ nav a:hover {
 
 
 
-
+/* Media queries added to correctly render page content at screen resolution breaks of 980px, 768px & 640px. */
 
 @media screen and (max-width: 980px) {
 
