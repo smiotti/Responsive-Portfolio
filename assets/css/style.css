@@ -157,6 +157,11 @@ nav ul li:first-child a {
   font-size: 22px;
 }
 
+#liri {
+	color:	white;
+
+}
+
 /* Styling for Contact Page */
 
 #contact-form ul {
